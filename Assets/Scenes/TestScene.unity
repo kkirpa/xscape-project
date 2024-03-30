@@ -3286,6 +3286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyedVersion: {fileID: 5343531236758942085, guid: fda45b636649c4156a2cc25b8f4e3d5a, type: 3}
+  statue: {fileID: 8877162908819374029, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
 --- !u!54 &1285218259
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4243,6 +4244,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007775743}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &3614672260153028140
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1438884307063642412, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: rotationSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776030896049955973, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776030896049955973, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_Constraints
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.557
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.877
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.947
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021383281361660033, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877162908819374029, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: m_Name
+      value: AlexanderStatue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4260,3 +4330,4 @@ SceneRoots:
   - {fileID: 995346519}
   - {fileID: 1805605886}
   - {fileID: 247529145}
+  - {fileID: 3614672260153028140}

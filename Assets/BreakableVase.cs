@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class BreakableVase : MonoBehaviour
 {
     public GameObject destroyedVersion;
+    public GameObject statue;
 
     void Update() {
         
@@ -31,6 +32,19 @@ public class BreakableVase : MonoBehaviour
     public void BreakTheVase ()
     {
         Instantiate(destroyedVersion, transform.position, transform.rotation);
+        
+
+        StatueMovement statueMovement = statue.GetComponent<StatueMovement>();
+        if (statueMovement != null)
+        {
+            // Start the movement of the statue
+            Debug.Log("Statue movement component found.");
+            statueMovement.StartRotation();
+        }
+        else {
+            Debug.Log("Statue movement component NOT found.");
+        }
+
         Destroy(gameObject);
     }
 }
