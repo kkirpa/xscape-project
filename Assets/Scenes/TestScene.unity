@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276788, g: 0.21589147, b: 0.29782534, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276797, g: 0.21589167, b: 0.29782546, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4741,6 +4741,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyedVersion: {fileID: 5343531236758942085, guid: fda45b636649c4156a2cc25b8f4e3d5a, type: 3}
   statue: {fileID: 8877162908819374029, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+  shatter: {fileID: 8300000, guid: eb6e8652e4d364301baefee5846922cc, type: 3}
+  keyPrefab: {fileID: 7158615705130217556, guid: 54c8bc83f13474a8c8806b12ae5a01cd, type: 3}
+  marblePrefab: {fileID: 610325401126310509, guid: 3420ccf8c29194f818247418a2f00397, type: 3}
 --- !u!54 &1285218259
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4967,74 +4970,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414038309}
   m_CullTransparentMesh: 1
---- !u!1 &1427816555
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1427816558}
-  - component: {fileID: 1427816557}
-  - component: {fileID: 1427816556}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1427816556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427816555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1427816557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427816555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1427816558
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427816555}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434393286
 GameObject:
   m_ObjectHideFlags: 0
@@ -7334,6 +7269,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1438884307063642412, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
+      propertyPath: stoneSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d447ae10e0e114bb78fa15748ed80145, type: 3}
+    - target: {fileID: 1438884307063642412, guid: c8ba24c6d1a0146c6b20ab2a6c021234, type: 3}
       propertyPath: rotationSpeed
       value: 0.5
       objectReference: {fileID: 0}
@@ -7413,5 +7352,4 @@ SceneRoots:
   - {fileID: 247529145}
   - {fileID: 3614672260153028140}
   - {fileID: 766244765}
-  - {fileID: 1427816558}
   - {fileID: 764967923}
