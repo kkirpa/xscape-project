@@ -1,0 +1,630 @@
+{
+  "$id": "1",
+  "$type": "VRBuilder.Core.Serialization.NewtonsoftJsonProcessSerializerV4+ProcessWrapper, VRBuilder.Core",
+  "SubChapters": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IChapter, VRBuilder.Core]], mscorlib",
+    "$values": []
+  },
+  "Steps": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
+    "$values": [
+      {
+        "$id": "4",
+        "$type": "VRBuilder.Core.Step, VRBuilder.Core",
+        "StepMetadata": {
+          "$id": "5",
+          "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
+          "Position": {
+            "x": 256.0,
+            "y": -1.0
+          },
+          "StepType": "default",
+          "Guid": "4eb881d3-e2d4-4dd6-982b-264b35da3154"
+        },
+        "Data": {
+          "$id": "6",
+          "$type": "VRBuilder.Core.Step+EntityData, VRBuilder.Core",
+          "Name": "Grabbing Vase",
+          "Description": null,
+          "Behaviors": {
+            "$id": "7",
+            "$type": "VRBuilder.Core.BehaviorCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "8",
+              "$type": "VRBuilder.Core.BehaviorCollection+EntityData, VRBuilder.Core",
+              "Behaviors": {
+                "$id": "9",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.IBehavior, VRBuilder.Core]], mscorlib",
+                "$values": []
+              }
+            }
+          },
+          "Transitions": {
+            "$id": "10",
+            "$type": "VRBuilder.Core.TransitionCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "11",
+              "$type": "VRBuilder.Core.TransitionCollection+EntityData, VRBuilder.Core",
+              "Transitions": {
+                "$id": "12",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.ITransition, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "13",
+                    "$type": "VRBuilder.Core.Transition, VRBuilder.Core",
+                    "Data": {
+                      "$id": "14",
+                      "$type": "VRBuilder.Core.Transition+EntityData, VRBuilder.Core",
+                      "Conditions": {
+                        "$id": "15",
+                        "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Conditions.ICondition, VRBuilder.Core]], mscorlib",
+                        "$values": [
+                          {
+                            "$id": "16",
+                            "$type": "VRBuilder.BasicInteraction.Conditions.GrabbedCondition, VRBuilder.BasicInteraction",
+                            "Data": {
+                              "$id": "17",
+                              "$type": "VRBuilder.BasicInteraction.Conditions.GrabbedCondition+EntityData, VRBuilder.BasicInteraction",
+                              "KeepUnlocked": true,
+                              "GrabbableProperty": {
+                                "$id": "18",
+                                "$type": "VRBuilder.Core.SceneObjects.ScenePropertyReference`1[[VRBuilder.BasicInteraction.Properties.IGrabbableProperty, VRBuilder.BasicInteraction]], VRBuilder.Core",
+                                "UniqueName": "vase2"
+                              },
+                              "IsCompleted": false,
+                              "Metadata": null
+                            }
+                          }
+                        ]
+                      },
+                      "TargetStep": {
+                        "$id": "19",
+                        "$type": "VRBuilder.Core.Serialization.NewtonsoftJsonProcessSerializerV4+Wrapper+StepRef, VRBuilder.Core",
+                        "LifeCycle": null,
+                        "StepMetadata": {
+                          "$id": "20",
+                          "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
+                          "Position": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "StepType": null,
+                          "Guid": "4c188d18-12bc-40e5-94bf-f8b1da749de5"
+                        },
+                        "Parent": null
+                      },
+                      "Mode": null,
+                      "IsCompleted": false,
+                      "Metadata": {
+                        "$id": "21",
+                        "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+                        "values": {
+                          "$id": "22",
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                          "Conditions": {
+                            "$id": "23",
+                            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                            "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                            "VRBuilder.Core.Attributes.ReorderableListOfAttribute": {
+                              "$id": "24",
+                              "$type": "VRBuilder.Core.Attributes.ListOfAttribute+Metadata, VRBuilder.Core",
+                              "ChildAttributes": {
+                                "$id": "25",
+                                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Attributes.MetadataAttribute, VRBuilder.Core]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "26",
+                                    "$type": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.FoldableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "27",
+                                    "$type": "VRBuilder.Core.Attributes.DeletableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.DeletableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.DeletableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "28",
+                                    "$type": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.HelpAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                ]
+                              },
+                              "ChildMetadata": {
+                                "$id": "29",
+                                "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "30",
+                                    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                    "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                                    "VRBuilder.Core.Attributes.DeletableAttribute": null,
+                                    "VRBuilder.Core.Attributes.HelpAttribute": null,
+                                    "ReorderableElement": {
+                                      "$id": "31",
+                                      "$type": "VRBuilder.Core.UI.Drawers.Metadata.ReorderableElementMetadata, VRBuilder.Core",
+                                      "MoveUp": false,
+                                      "MoveDown": false,
+                                      "IsFirst": true,
+                                      "IsLast": true
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "VRBuilder.Core.Attributes.ExtendableListAttribute": {
+                              "$id": "32",
+                              "$type": "VRBuilder.Core.Attributes.ExtendableListAttribute+SerializedTypeWrapper, VRBuilder.Core",
+                              "Type": "VRBuilder.Core.Conditions.ICondition, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "Mode": null,
+          "ToUnlock": {
+            "$id": "33",
+            "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.LockablePropertyReference, VRBuilder.Core]], mscorlib",
+            "$values": []
+          },
+          "TagsToUnlock": {
+            "$id": "34",
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[System.Collections.Generic.IEnumerable`1[[System.Type, mscorlib]], mscorlib]], mscorlib"
+          },
+          "Metadata": {
+            "$id": "35",
+            "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+            "values": {
+              "$id": "36",
+              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+              "TabsGroup": {
+                "$id": "37",
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                "selected": 1
+              }
+            }
+          }
+        }
+      },
+      {
+        "$id": "38",
+        "$type": "VRBuilder.Core.Step, VRBuilder.Core",
+        "StepMetadata": {
+          "$id": "39",
+          "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
+          "Position": {
+            "x": 463.5,
+            "y": 3.0
+          },
+          "StepType": "default",
+          "Guid": "4c188d18-12bc-40e5-94bf-f8b1da749de5"
+        },
+        "Data": {
+          "$id": "40",
+          "$type": "VRBuilder.Core.Step+EntityData, VRBuilder.Core",
+          "Name": "Break Vase",
+          "Description": null,
+          "Behaviors": {
+            "$id": "41",
+            "$type": "VRBuilder.Core.BehaviorCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "42",
+              "$type": "VRBuilder.Core.BehaviorCollection+EntityData, VRBuilder.Core",
+              "Behaviors": {
+                "$id": "43",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.IBehavior, VRBuilder.Core]], mscorlib",
+                "$values": []
+              }
+            }
+          },
+          "Transitions": {
+            "$id": "44",
+            "$type": "VRBuilder.Core.TransitionCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "45",
+              "$type": "VRBuilder.Core.TransitionCollection+EntityData, VRBuilder.Core",
+              "Transitions": {
+                "$id": "46",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.ITransition, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "47",
+                    "$type": "VRBuilder.Core.Transition, VRBuilder.Core",
+                    "Data": {
+                      "$id": "48",
+                      "$type": "VRBuilder.Core.Transition+EntityData, VRBuilder.Core",
+                      "Conditions": {
+                        "$id": "49",
+                        "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Conditions.ICondition, VRBuilder.Core]], mscorlib",
+                        "$values": [
+                          {
+                            "$id": "50",
+                            "$type": "VRBuilder.BasicInteraction.Conditions.ReleasedCondition, VRBuilder.BasicInteraction",
+                            "Data": {
+                              "$id": "51",
+                              "$type": "VRBuilder.BasicInteraction.Conditions.ReleasedCondition+EntityData, VRBuilder.BasicInteraction",
+                              "GrabbableProperty": {
+                                "$id": "52",
+                                "$type": "VRBuilder.Core.SceneObjects.ScenePropertyReference`1[[VRBuilder.BasicInteraction.Properties.IGrabbableProperty, VRBuilder.BasicInteraction]], VRBuilder.Core",
+                                "UniqueName": ""
+                              },
+                              "IsCompleted": false,
+                              "Metadata": null
+                            }
+                          }
+                        ]
+                      },
+                      "TargetStep": null,
+                      "Mode": null,
+                      "IsCompleted": false,
+                      "Metadata": {
+                        "$id": "53",
+                        "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+                        "values": {
+                          "$id": "54",
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                          "Conditions": {
+                            "$id": "55",
+                            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                            "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                            "VRBuilder.Core.Attributes.ReorderableListOfAttribute": {
+                              "$id": "56",
+                              "$type": "VRBuilder.Core.Attributes.ListOfAttribute+Metadata, VRBuilder.Core",
+                              "ChildAttributes": {
+                                "$id": "57",
+                                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Attributes.MetadataAttribute, VRBuilder.Core]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "58",
+                                    "$type": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.FoldableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "59",
+                                    "$type": "VRBuilder.Core.Attributes.DeletableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.DeletableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.DeletableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "60",
+                                    "$type": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.HelpAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                ]
+                              },
+                              "ChildMetadata": {
+                                "$id": "61",
+                                "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "62",
+                                    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                    "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                                    "VRBuilder.Core.Attributes.DeletableAttribute": null,
+                                    "VRBuilder.Core.Attributes.HelpAttribute": null,
+                                    "ReorderableElement": {
+                                      "$id": "63",
+                                      "$type": "VRBuilder.Core.UI.Drawers.Metadata.ReorderableElementMetadata, VRBuilder.Core",
+                                      "MoveUp": false,
+                                      "MoveDown": false,
+                                      "IsFirst": true,
+                                      "IsLast": true
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "VRBuilder.Core.Attributes.ExtendableListAttribute": {
+                              "$id": "64",
+                              "$type": "VRBuilder.Core.Attributes.ExtendableListAttribute+SerializedTypeWrapper, VRBuilder.Core",
+                              "Type": "VRBuilder.Core.Conditions.ICondition, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "Mode": null,
+          "ToUnlock": {
+            "$id": "65",
+            "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.LockablePropertyReference, VRBuilder.Core]], mscorlib",
+            "$values": []
+          },
+          "TagsToUnlock": {
+            "$id": "66",
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[System.Collections.Generic.IEnumerable`1[[System.Type, mscorlib]], mscorlib]], mscorlib"
+          },
+          "Metadata": {
+            "$id": "67",
+            "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+            "values": {
+              "$id": "68",
+              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+              "TabsGroup": {
+                "$id": "69",
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                "selected": 1
+              }
+            }
+          }
+        }
+      },
+      {
+        "$id": "70",
+        "$type": "VRBuilder.Core.Step, VRBuilder.Core",
+        "StepMetadata": {
+          "$id": "71",
+          "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
+          "Position": {
+            "x": 269.0,
+            "y": 10.0
+          },
+          "StepType": "default",
+          "Guid": "b44da970-e40f-492b-8f56-29d7f3dbd0e8"
+        },
+        "Data": {
+          "$id": "72",
+          "$type": "VRBuilder.Core.Step+EntityData, VRBuilder.Core",
+          "Name": "Step",
+          "Description": null,
+          "Behaviors": {
+            "$id": "73",
+            "$type": "VRBuilder.Core.BehaviorCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "74",
+              "$type": "VRBuilder.Core.BehaviorCollection+EntityData, VRBuilder.Core",
+              "Behaviors": {
+                "$id": "75",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.IBehavior, VRBuilder.Core]], mscorlib",
+                "$values": []
+              }
+            }
+          },
+          "Transitions": {
+            "$id": "76",
+            "$type": "VRBuilder.Core.TransitionCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "77",
+              "$type": "VRBuilder.Core.TransitionCollection+EntityData, VRBuilder.Core",
+              "Transitions": {
+                "$id": "78",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.ITransition, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "79",
+                    "$type": "VRBuilder.Core.Transition, VRBuilder.Core",
+                    "Data": {
+                      "$id": "80",
+                      "$type": "VRBuilder.Core.Transition+EntityData, VRBuilder.Core",
+                      "Conditions": {
+                        "$id": "81",
+                        "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Conditions.ICondition, VRBuilder.Core]], mscorlib",
+                        "$values": [
+                          {
+                            "$id": "82",
+                            "$type": "VRBuilder.BasicInteraction.Conditions.GrabbedCondition, VRBuilder.BasicInteraction",
+                            "Data": {
+                              "$id": "83",
+                              "$type": "VRBuilder.BasicInteraction.Conditions.GrabbedCondition+EntityData, VRBuilder.BasicInteraction",
+                              "KeepUnlocked": true,
+                              "GrabbableProperty": {
+                                "$id": "84",
+                                "$type": "VRBuilder.Core.SceneObjects.ScenePropertyReference`1[[VRBuilder.BasicInteraction.Properties.IGrabbableProperty, VRBuilder.BasicInteraction]], VRBuilder.Core",
+                                "UniqueName": ""
+                              },
+                              "IsCompleted": false,
+                              "Metadata": null
+                            }
+                          }
+                        ]
+                      },
+                      "TargetStep": null,
+                      "Mode": null,
+                      "IsCompleted": false,
+                      "Metadata": {
+                        "$id": "85",
+                        "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+                        "values": {
+                          "$id": "86",
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                          "Conditions": {
+                            "$id": "87",
+                            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                            "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                            "VRBuilder.Core.Attributes.ReorderableListOfAttribute": {
+                              "$id": "88",
+                              "$type": "VRBuilder.Core.Attributes.ListOfAttribute+Metadata, VRBuilder.Core",
+                              "ChildAttributes": {
+                                "$id": "89",
+                                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Attributes.MetadataAttribute, VRBuilder.Core]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "90",
+                                    "$type": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.FoldableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "91",
+                                    "$type": "VRBuilder.Core.Attributes.DeletableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.DeletableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.DeletableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "92",
+                                    "$type": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.HelpAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                ]
+                              },
+                              "ChildMetadata": {
+                                "$id": "93",
+                                "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "94",
+                                    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                    "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                                    "VRBuilder.Core.Attributes.DeletableAttribute": null,
+                                    "VRBuilder.Core.Attributes.HelpAttribute": null,
+                                    "ReorderableElement": {
+                                      "$id": "95",
+                                      "$type": "VRBuilder.Core.UI.Drawers.Metadata.ReorderableElementMetadata, VRBuilder.Core",
+                                      "MoveUp": false,
+                                      "MoveDown": false,
+                                      "IsFirst": true,
+                                      "IsLast": true
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "VRBuilder.Core.Attributes.ExtendableListAttribute": {
+                              "$id": "96",
+                              "$type": "VRBuilder.Core.Attributes.ExtendableListAttribute+SerializedTypeWrapper, VRBuilder.Core",
+                              "Type": "VRBuilder.Core.Conditions.ICondition, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "Mode": null,
+          "ToUnlock": {
+            "$id": "97",
+            "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.LockablePropertyReference, VRBuilder.Core]], mscorlib",
+            "$values": []
+          },
+          "TagsToUnlock": {
+            "$id": "98",
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[System.Collections.Generic.IEnumerable`1[[System.Type, mscorlib]], mscorlib]], mscorlib"
+          },
+          "Metadata": {
+            "$id": "99",
+            "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+            "values": {
+              "$id": "100",
+              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+              "TabsGroup": {
+                "$id": "101",
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                "selected": 1
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Process": {
+    "$id": "102",
+    "$type": "VRBuilder.Core.Process, VRBuilder.Core",
+    "CurrentStep": null,
+    "ProcessMetadata": {
+      "$id": "103",
+      "$type": "VRBuilder.Core.ProcessMetadata, VRBuilder.Core",
+      "StringLocalizationTable": null,
+      "Guid": "baf95828-715c-449b-8f9f-1137fafc26cc"
+    },
+    "Data": {
+      "$id": "104",
+      "$type": "VRBuilder.Core.Process+EntityData, VRBuilder.Core",
+      "Chapters": {
+        "$id": "105",
+        "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IChapter, VRBuilder.Core]], mscorlib",
+        "$values": [
+          {
+            "$id": "106",
+            "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
+            "ChapterMetadata": {
+              "$id": "107",
+              "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
+              "LastSelectedStep": null,
+              "EntryNodePosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "Guid": "93bb982a-714d-4b3f-9612-79419b25fd92"
+            },
+            "Data": {
+              "$id": "108",
+              "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
+              "Name": "Chapter 1",
+              "FirstStep": {
+                "$ref": "4"
+              },
+              "Steps": {
+                "$id": "109",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$ref": "4"
+                  },
+                  {
+                    "$ref": "38"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$id": "110",
+            "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
+            "ChapterMetadata": {
+              "$id": "111",
+              "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
+              "LastSelectedStep": null,
+              "EntryNodePosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "Guid": "4c72c2e3-1e9f-4c4f-bf89-344029ae015e"
+            },
+            "Data": {
+              "$id": "112",
+              "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
+              "Name": "Chapter 2",
+              "FirstStep": null,
+              "Steps": {
+                "$id": "113",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$ref": "70"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "FirstChapter": {
+        "$ref": "106"
+      },
+      "Name": "MainRoomProcess",
+      "Mode": null,
+      "Metadata": null
+    }
+  },
+  "$serializerVersion": 4
+}
