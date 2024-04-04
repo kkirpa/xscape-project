@@ -1,0 +1,19 @@
+{
+    "name": "VRBuilder.TextToSpeech",
+    "rootNamespace": "",
+    "references": [
+        "VRBuilder.Core",
+        "Unity.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VR_BUILDER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

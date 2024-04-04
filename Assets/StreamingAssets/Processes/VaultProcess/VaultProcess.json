@@ -1,0 +1,67 @@
+{
+  "$id": "1",
+  "$type": "VRBuilder.Core.Serialization.NewtonsoftJsonProcessSerializerV4+ProcessWrapper, VRBuilder.Core",
+  "SubChapters": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IChapter, VRBuilder.Core]], mscorlib",
+    "$values": []
+  },
+  "Steps": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
+    "$values": []
+  },
+  "Process": {
+    "$id": "4",
+    "$type": "VRBuilder.Core.Process, VRBuilder.Core",
+    "CurrentStep": null,
+    "ProcessMetadata": {
+      "$id": "5",
+      "$type": "VRBuilder.Core.ProcessMetadata, VRBuilder.Core",
+      "StringLocalizationTable": null,
+      "Guid": "97b19b57-826d-408c-a588-aa401c008345"
+    },
+    "Data": {
+      "$id": "6",
+      "$type": "VRBuilder.Core.Process+EntityData, VRBuilder.Core",
+      "Chapters": {
+        "$id": "7",
+        "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IChapter, VRBuilder.Core]], mscorlib",
+        "$values": [
+          {
+            "$id": "8",
+            "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
+            "ChapterMetadata": {
+              "$id": "9",
+              "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
+              "LastSelectedStep": null,
+              "EntryNodePosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "Guid": "a5747da7-e85f-4ef3-9a0f-04c1e019a289"
+            },
+            "Data": {
+              "$id": "10",
+              "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
+              "Name": "Chapter 1",
+              "FirstStep": null,
+              "Steps": {
+                "$id": "11",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
+                "$values": []
+              }
+            }
+          }
+        ]
+      },
+      "FirstChapter": {
+        "$ref": "8"
+      },
+      "Name": "VaultProcess",
+      "Mode": null,
+      "Metadata": null
+    }
+  },
+  "$serializerVersion": 4
+}
