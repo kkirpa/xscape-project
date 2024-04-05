@@ -231,12 +231,12 @@
                       "Target": {
                         "$id": "46",
                         "$type": "VRBuilder.Core.SceneObjects.SceneObjectReference, VRBuilder.Core",
-                        "UniqueName": "Pivot"
+                        "UniqueName": "Door"
                       },
                       "PositionProvider": {
                         "$id": "47",
                         "$type": "VRBuilder.Core.SceneObjects.SceneObjectReference, VRBuilder.Core",
-                        "UniqueName": "Pivot"
+                        "UniqueName": "Final position"
                       },
                       "Duration": 3.0,
                       "AnimationCurve": {
