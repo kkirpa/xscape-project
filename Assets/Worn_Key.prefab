@@ -13,10 +13,7 @@ GameObject:
   - component: {fileID: 8671821263749910913}
   - component: {fileID: 7752180177294346519}
   - component: {fileID: 4032674934712205919}
-  - component: {fileID: 9204067297350432918}
-  - component: {fileID: 8217727185477351752}
-  - component: {fileID: 5998422199622449100}
-  - component: {fileID: 1020735607203176916}
+  - component: {fileID: 6636618360925743966}
   m_Layer: 0
   m_Name: Worn_Key
   m_TagString: Untagged
@@ -34,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -1.324, y: 2.364, z: -8.07}
-  m_LocalScale: {x: 5.000001, y: 5.000001, z: 5.000001}
+  m_LocalScale: {x: 2.000001, y: 2.000001, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -137,7 +134,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.025563164, y: 0.06203337, z: 0.0041366694}
   m_Center: {x: -0.00019168667, y: 0.0058371658, z: -0.000043276}
---- !u!114 &9204067297350432918
+--- !u!114 &6636618360925743966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,7 +143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7158615705130217556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1bcb89c5e4474247b7923fe1388ad1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -241,13 +238,13 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 1
+  m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
-  m_SnapToColliderVolume: 0
+  m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -264,7 +261,7 @@ MonoBehaviour:
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -289,58 +286,3 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  isTouchable: 1
-  isGrabbable: 1
-  isUsable: 0
---- !u!114 &8217727185477351752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7158615705130217556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64582d436c5a4e84d89ba2d25709ddca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueName: Worn_Key_2
-  tags: []
---- !u!114 &5998422199622449100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7158615705130217556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 573907d717ac4934eb429f2f5978a132, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockOnParentObjectLock: 1
-  touchStarted:
-    m_PersistentCalls:
-      m_Calls: []
-  touchEnded:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1020735607203176916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7158615705130217556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428efa2c1665b6745bfa9c1ec2026c93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockOnParentObjectLock: 1
-  grabStarted:
-    m_PersistentCalls:
-      m_Calls: []
-  grabEnded:
-    m_PersistentCalls:
-      m_Calls: []
