@@ -10,13 +10,21 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+/xscape-project-0.2/Library
+/xscape-project-0.2/Temp
+/xscape-project-0.2/Obj
+/xscape-project-0.2/Build
+/xscape-project-0.2/Builds
+/xscape-project-0.2/Logs
+/xscape-project-0.2/UserSettings
+
+/xscape-project-0.1/Library
+/xscape-project-0.1/Temp
+/xscape-project-0.1/Obj
+/xscape-project-0.1/Build
+/xscape-project-0.1/Builds
+/xscape-project-0.1/Logs
+/xscape-project-0.1/UserSettings
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
