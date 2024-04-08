@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7752180177294346519}
   - component: {fileID: 4032674934712205919}
   - component: {fileID: 6636618360925743966}
+  - component: {fileID: -4706483603488045028}
   m_Layer: 0
   m_Name: Worn_Key
   m_TagString: Untagged
@@ -286,3 +287,17 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-4706483603488045028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158615705130217556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64582d436c5a4e84d89ba2d25709ddca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueName: Worn_Key
+  tags: []
