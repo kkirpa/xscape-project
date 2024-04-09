@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15900302, g: 0.14357652, b: 0.08695044, a: 1}
+  m_IndirectSpecularColor: {r: 0.25278834, g: 0.22819553, b: 0.13810322, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7545,14 +7545,14 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902048662}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 5
   m_Range: 10
-  m_SpotAngle: 21.80208
+  m_SpotAngle: 31.477757
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -10836,7 +10836,7 @@ Transform:
   m_GameObject: {fileID: 1268048284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 11.391, y: -2.4783, z: 1.337}
+  m_LocalPosition: {x: 11.391, y: -2.4783, z: 1.287}
   m_LocalScale: {x: 0.15, y: 0.89224917, z: 1.0178428}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14497,7 +14497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15201,8 +15201,8 @@ Transform:
   m_GameObject: {fileID: 1627603797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 11.874389, y: -2.484992, z: 1.8780012}
-  m_LocalScale: {x: 0.94768876, y: 0.85921794, z: 0.035}
+  m_LocalPosition: {x: 11.874, y: -2.484992, z: 1.852}
+  m_LocalScale: {x: 0.9595349, y: 0.85921794, z: 0.035}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 764967923}
@@ -16366,7 +16366,7 @@ Transform:
   m_GameObject: {fileID: 1777776519}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 11.874387, y: -2.484992, z: 0.68040085}
+  m_LocalPosition: {x: 11.874, y: -2.484992, z: 0.637}
   m_LocalScale: {x: 1.1381742, y: 0.85921794, z: 0.035}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18926,5 +18926,3 @@ SceneRoots:
   - {fileID: 2066768336}
   - {fileID: 713965819}
   - {fileID: 1545665787}
-  - {fileID: 908504484}
-  - {fileID: 580117805}
