@@ -8,17 +8,11 @@ public class StatueMovement : MonoBehaviour
 
     private static bool isRotating = false;
 
-    public AudioClip stoneSound;
 
     // Method to start the rotation of the statue
     public void StartRotation()
     {
         isRotating = true;
-        if (stoneSound != null)
-        {
-            AudioSource.PlayClipAtPoint(stoneSound, transform.position);
-        }
-        
     }
 
     void Update()
