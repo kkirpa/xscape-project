@@ -273,7 +273,7 @@
               "TabsGroup": {
                 "$id": "53",
                 "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
-                "selected": 1
+                "selected": 0
               }
             }
           }
