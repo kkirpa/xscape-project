@@ -47,7 +47,7 @@
                       "AudioData": {
                         "$id": "12",
                         "$type": "VRBuilder.Core.Audio.ResourceAudio, VRBuilder.Core",
-                        "ResourcesPath": "/sirenSound"
+                        "ResourcesPath": "sirenSound"
                       },
                       "ExecutionStages": 1,
                       "Volume": 1.0,
