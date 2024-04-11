@@ -1324,14 +1324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96efa89124dda0941802f28ad8249b87, type: 3}
   m_Name: MockDriver Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
-  nameUi: Mock Driver
-  version: 0.0.1
-  featureIdInternal: com.unity.openxr.feature.mockdriver
-  openxrExtensionStrings: XR_UNITY_mock_driver
-  company: Unity
-  priority: 0
-  required: 0
 --- !u!114 &3473366560882842830
 MonoBehaviour:
   m_ObjectHideFlags: 0
