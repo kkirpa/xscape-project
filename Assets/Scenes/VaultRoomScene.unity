@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14193,7 +14193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 1
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -14795,7 +14795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 0
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -15182,7 +15182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 6
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -17069,7 +17069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 7
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -30045,13 +30045,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159273256}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.42251074, y: -0.56309825, z: -0.5700654, w: -0.42359236}
-  m_LocalPosition: {x: 20.855938, y: -10.947449, z: 8.472521}
+  m_LocalRotation: {x: -0.5705679, y: -0.41485253, z: -0.4218316, w: -0.56956816}
+  m_LocalPosition: {x: 20.855942, y: -10.947454, z: 8.47253}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7272638916754396740}
   m_Father: {fileID: 543450652730955520}
-  m_LocalEulerAnglesHint: {x: -163.497, y: -90.526, z: -89.58301}
+  m_LocalEulerAnglesHint: {x: -197.455, y: -90.28198, z: -89.58099}
 --- !u!114 &1159273258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30249,7 +30250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 4
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -31616,7 +31617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 3
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -31750,7 +31751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 0
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -32842,7 +32843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 2
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -33782,7 +33783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 5
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -34681,7 +34682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beaeec77c2fc1de4195032b56b55662e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPadNumber: 9
+  keypadNumber: 0
   KeypadClicked:
     m_PersistentCalls:
       m_Calls:
@@ -34782,9 +34783,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9034892040575467147}
-  - {fileID: 7272638916754396740}
-  - {fileID: 1159273257}
   - {fileID: 2118708521}
+  - {fileID: 1159273257}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90.571, y: 84.668, z: 45.572006}
 --- !u!1 &812917337169728631
@@ -35117,12 +35117,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155298510775788038}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0033889632, y: 0.008149057, z: -0.7609472, w: -0.6487537}
-  m_LocalPosition: {x: 0.92535543, y: 1.3494637, z: 0.5928611}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.706485, y: 0.021493284, z: 0.02853296, w: 0.706826}
+  m_LocalPosition: {x: 1.3951932, y: -0.78231853, z: -1.8832759}
+  m_LocalScale: {x: 0.10000001, y: 0.099999994, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 543450652730955520}
+  m_Father: {fileID: 1159273257}
   m_LocalEulerAnglesHint: {x: -180.963, y: 179.69, z: -80.90201}
 --- !u!33 &8103695658964369546
 MeshFilter:
