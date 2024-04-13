@@ -87,6 +87,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d03f4020bfd1470eb7d316ceafc7268, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5632457131942981230}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d03f4020bfd1470eb7d316ceafc7268, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7848842222722936502}
     - targetCorrespondingSourceObject: {fileID: 292136435173175697, guid: 3d03f4020bfd1470eb7d316ceafc7268, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8701631491369523251}
@@ -849,6 +852,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7848842222722936502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5343531236758942085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eee12dad0c594caf92eee13cafd9fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vasePieces: {fileID: 5343531236758942085}
 --- !u!1 &8710405618926737392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4753281905850016988, guid: 3d03f4020bfd1470eb7d316ceafc7268, type: 3}
