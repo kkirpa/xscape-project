@@ -11,7 +11,6 @@ public class ButtonScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Clicked 0 button");
         KeypadClicked.Invoke();
     }
 }
