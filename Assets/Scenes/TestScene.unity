@@ -2910,7 +2910,7 @@ GameObject:
   - component: {fileID: 205222962}
   - component: {fileID: 205222961}
   m_Layer: 5
-  m_Name: Pearl
+  m_Name: RawImg3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4371,7 +4371,7 @@ GameObject:
   - component: {fileID: 344134804}
   - component: {fileID: 344134803}
   m_Layer: 5
-  m_Name: Pearl
+  m_Name: RawImg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7142,6 +7142,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4e01c8907c072c4988d538a310853b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  art_left: {fileID: 994371257}
+  art_mid: {fileID: 344134803}
+  art_right: {fileID: 205222961}
+  displayedIndices: 000000000000000000000000
+  numCurrDisplayed: 0
+  art_names:
+  - hello
+  myTextures:
+  - {fileID: 2800000, guid: 225ed875001dde44789fe766b438f6ac, type: 3}
+  - {fileID: 2800000, guid: fda8ec0d3567bb14e9b5e2282b6ef394, type: 3}
+  - {fileID: 2800000, guid: 88790a36a3317114a8007299b54f5793, type: 3}
+  - {fileID: 2800000, guid: ad0594d956f3da847a006b97d17cc36f, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &523505623
 GameObject:
   m_ObjectHideFlags: 0
@@ -12950,7 +12975,7 @@ GameObject:
   - component: {fileID: 994371258}
   - component: {fileID: 994371257}
   m_Layer: 5
-  m_Name: Pearl
+  m_Name: RawImg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
