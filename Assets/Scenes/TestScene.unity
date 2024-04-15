@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.062818676, g: 0.07622389, b: 0.10884102, a: 1}
+  m_IndirectSpecularColor: {r: 0.062820174, g: 0.076224834, b: 0.108829156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2898,6 +2898,79 @@ Transform:
   - {fileID: 1156305006}
   m_Father: {fileID: 1530911713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &205000485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.235
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37964857
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.7978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538423760001217419, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Name
+      value: MarbleBench (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
 --- !u!1 &205222959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,7 +3429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.32
+      value: -7.321
       objectReference: {fileID: 0}
     - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3398,6 +3471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarbleBench
       objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6577,6 +6654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarbleBench (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7142,6 +7223,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4e01c8907c072c4988d538a310853b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  art_left: {fileID: 0}
+  art_mid: {fileID: 0}
+  art_right: {fileID: 0}
+  displayedIndices: 000000000000000000000000
+  numCurrDisplayed: 0
+  art_names:
+  - hello
+  myTextures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &523505623
 GameObject:
   m_ObjectHideFlags: 0
@@ -14439,6 +14545,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b0c020fd33ea4d34b9ec79f2f01ca789, type: 3}
   m_PrefabInstance: {fileID: 1101832565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1110050171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.323
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37964857
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.798
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538423760001217419, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Name
+      value: MarbleBench (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
 --- !u!1001 &1122924782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15137,6 +15316,79 @@ Transform:
   - {fileID: 235434358}
   m_Father: {fileID: 204748136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1157121216
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.542
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37964857
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538423760001217419, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Name
+      value: MarbleBench (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
 --- !u!1 &1163516758
 GameObject:
   m_ObjectHideFlags: 0
@@ -19871,6 +20123,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b0c020fd33ea4d34b9ec79f2f01ca789, type: 3}
   m_PrefabInstance: {fileID: 1362809173}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1381051769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.542
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37964857
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230115976219068977, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538423760001217419, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Name
+      value: MarbleBench (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
 --- !u!1 &1388639504
 GameObject:
   m_ObjectHideFlags: 0
@@ -21700,7 +22025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24452,6 +24777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarbleBench (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8240732282053283233, guid: 8e448f829eed3422481a6fc46dd183c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76d374eb88d7c4298b1d6d8d08df87df, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28048,8 +28377,12 @@ SceneRoots:
   - {fileID: 908504484}
   - {fileID: 1335804997}
   - {fileID: 237595518}
+  - {fileID: 1110050171}
   - {fileID: 444715625}
+  - {fileID: 205000485}
   - {fileID: 1789368428}
+  - {fileID: 1381051769}
+  - {fileID: 1157121216}
   - {fileID: 106043585}
   - {fileID: 1502633579}
   - {fileID: 265288793}
