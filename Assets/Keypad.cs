@@ -17,6 +17,7 @@ public class Keypad : MonoBehaviour
     private void Start()
     {
         userInput = "";
+        audioSource = GetComponent<AudioSource>();
     }
     public void Update()
     {
@@ -25,6 +26,7 @@ public class Keypad : MonoBehaviour
     
     public void ButtonClicked(string number)
     {
+        audioSource.PlayOneShot(clickSound);
         if(number == "-1" & userInput.Length >= 0)
         {
             if(userInput.Length != 0)
@@ -43,12 +45,14 @@ public class Keypad : MonoBehaviour
         {
             if(userInput == passcode)
             {
+                audioSource.PlayOneShot(successSound);
                 Debug.Log("Entry approved");
                 userInput = "";
                 // TODO: event to open safe (including safe opening sound)
             }
             else
             {
+                audioSource.PlayOneShot(failSound);
                 Debug.Log("Entry denied");
                 userInput = "";
             }
