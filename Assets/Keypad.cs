@@ -1,17 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class Keypad : MonoBehaviour
 {
     public string passcode = "0000";
     private string userInput = "";
-    //public Text UIText = null;
-    
+    public Text UIText = null;
+
+    public AudioClip clickSound;
+    public AudioClip successSound;
+    public AudioClip failSound;
+    AudioSource audioSource;
+
     private void Start()
     {
         userInput = "";
+    }
+    public void Update()
+    {
+
     }
     
     public void ButtonClicked(string number)
