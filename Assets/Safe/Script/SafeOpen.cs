@@ -6,7 +6,7 @@ public class SafeOpen : MonoBehaviour
 {
     //reference to the animator component of the safe
     [SerializeField]
-    private Animator _anim;
+    public Animator _anim;
 
 
     // Start is called before the first frame update
@@ -19,10 +19,9 @@ public class SafeOpen : MonoBehaviour
     void Update()
     {
         //trigger - space key for now
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _anim.SetTrigger("0000");
-        }
+        
+            //_anim.SetTrigger("0000");
+        
     }
 
     // private void OnMouseDown()
