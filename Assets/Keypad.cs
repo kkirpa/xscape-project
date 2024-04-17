@@ -20,10 +20,7 @@ public class Keypad : MonoBehaviour
     {
         userInput = "";
         audioSource = GetComponent<AudioSource>();
-        //UIText = GetComponent<TMPro.TextMeshProUGUI>();
-        // UIText = GetComponent<TextMeshPro>();
         UIText = GetComponentInChildren<TextMeshPro>();
-        UIText.text = "hi";
     }
     
     public void ButtonClicked(string number)
@@ -34,38 +31,37 @@ public class Keypad : MonoBehaviour
             if(userInput.Length != 0)
             {
                 userInput = userInput.Remove(userInput.Length - 1);
-                Debug.Log("Removal: " + userInput);
                 
             }
-            else
+            /*else
             {
                 Debug.Log("Empty string: " + userInput + ", string length = " + userInput.Length);
-            }
-
+            }*/
+            UIText.text = userInput;
         }
         else if(number == "-2")
         {
             if(userInput == passcode)
             {
                 audioSource.PlayOneShot(successSound);
-                Debug.Log("Entry approved");
                 userInput = "";
-                // TODO: event to open safe (including safe opening sound)
+                UIText.text = "SUCCESS";
             }
             else
             {
                 audioSource.PlayOneShot(failSound);
-                Debug.Log("Entry denied");
                 userInput = "";
+                UIText.text = "TRY AGAIN";
             }
         }
         else
         {
-            userInput += number;
-            Debug.Log(userInput);
+            if(userInput.Length < 4)
+            {
+                userInput += number;
+                Debug.Log(userInput);
+                UIText.text = userInput;
+            }
         }
-        
-
-
     }
 }
