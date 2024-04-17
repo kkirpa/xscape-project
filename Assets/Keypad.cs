@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using TMPro;
 
 public class Keypad : MonoBehaviour
 {
     public string passcode = "0000";
     private string userInput = "";
-    public Text UIText = null;
+    public TextMeshPro UIText;
 
     public AudioClip clickSound;
     public AudioClip successSound;
@@ -18,10 +20,10 @@ public class Keypad : MonoBehaviour
     {
         userInput = "";
         audioSource = GetComponent<AudioSource>();
-    }
-    public void Update()
-    {
-
+        //UIText = GetComponent<TMPro.TextMeshProUGUI>();
+        // UIText = GetComponent<TextMeshPro>();
+        UIText = GetComponentInChildren<TextMeshPro>();
+        UIText.text = "hi";
     }
     
     public void ButtonClicked(string number)
@@ -63,6 +65,7 @@ public class Keypad : MonoBehaviour
             Debug.Log(userInput);
         }
         
-        
+
+
     }
 }
