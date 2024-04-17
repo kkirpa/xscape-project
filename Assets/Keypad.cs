@@ -10,6 +10,8 @@ public class Keypad : MonoBehaviour
     public string passcode = "0000";
     private string userInput = "";
     public TextMeshPro UIText;
+    public GameObject safeObject;
+    public Animator _anim;
 
     public AudioClip clickSound;
     public AudioClip successSound;
@@ -21,6 +23,8 @@ public class Keypad : MonoBehaviour
         userInput = "";
         audioSource = GetComponent<AudioSource>();
         UIText = GetComponentInChildren<TextMeshPro>();
+        _anim = safeObject.GetComponent<Animator>();
+        Debug.Log("_anim: " + _anim);
     }
     
     public void ButtonClicked(string number)
@@ -33,10 +37,6 @@ public class Keypad : MonoBehaviour
                 userInput = userInput.Remove(userInput.Length - 1);
                 
             }
-            /*else
-            {
-                Debug.Log("Empty string: " + userInput + ", string length = " + userInput.Length);
-            }*/
             UIText.text = userInput;
         }
         else if(number == "-2")
@@ -46,6 +46,9 @@ public class Keypad : MonoBehaviour
                 audioSource.PlayOneShot(successSound);
                 userInput = "";
                 UIText.text = "SUCCESS";
+                // TODO: Create event trigger
+                _anim.Play("KeypadCorrect");
+                _anim.SetTrigger("0000");
             }
             else
             {

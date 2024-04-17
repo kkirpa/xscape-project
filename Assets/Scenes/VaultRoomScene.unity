@@ -48586,7 +48586,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   passcode: 0000
-  UIText: {fileID: 0}
+  UIText: {fileID: 226304365}
+  safeObject: {fileID: 1051147674}
   clickSound: {fileID: 8300000, guid: 601bb51101b0d654e9ce8bd3dcc33748, type: 3}
   successSound: {fileID: 8300000, guid: 834b68e5756ae07409ccb96cba1943c0, type: 3}
   failSound: {fileID: 8300000, guid: a2d85b9ed078f2a478e725819de97ec6, type: 3}
