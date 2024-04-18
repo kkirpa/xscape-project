@@ -62,7 +62,7 @@ Shader "Custom/RevealingShader2"
                 strength = min(max(strength * 10, 0), 1);
                 float alphaValue = strength;
                 // apply the alpha value
-                col.a = alphaValue;
+                col.a = alphaValue * col.a;
                 return col;
             }
             ENDCG
