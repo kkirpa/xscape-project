@@ -8,11 +8,18 @@ public class SafeOpen : MonoBehaviour
     [SerializeField]
     public Animator _anim;
 
+    public GameObject handleObject;
+    public AudioSource audHandle;
+
+    public GameObject doorObject;
+    public AudioSource audDoor;
 
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
+        audHandle = handleObject.GetComponent<AudioSource>();
+        audDoor = doorObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,4 +35,14 @@ public class SafeOpen : MonoBehaviour
     // {
     //     _anim.SetTrigger("0000");
     // }
+
+    public void play_handleSound()
+    {
+        audHandle.Play();
+    }
+
+    public void play_doorSound()
+    {
+        audDoor.Play();
+    }
 }
