@@ -14,12 +14,27 @@ public class SafeOpen : MonoBehaviour
     public GameObject doorObject;
     public AudioSource audDoor;
 
+    public GameObject moneyRainBack;
+    public AudioSource audMoneyBack;
+    public ParticleSystem psBack;
+
+    public GameObject moneyRainFront;
+    public AudioSource audMoneyFront;
+    public ParticleSystem psFront;
+
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
+
         audHandle = handleObject.GetComponent<AudioSource>();
         audDoor = doorObject.GetComponent<AudioSource>();
+
+        psBack = moneyRainBack.GetComponent<ParticleSystem>();
+        audMoneyBack = moneyRainBack.GetComponent<AudioSource>();
+
+        psFront = moneyRainFront.GetComponent<ParticleSystem>();
+        audMoneyFront = moneyRainFront.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,11 +46,6 @@ public class SafeOpen : MonoBehaviour
         
     }
 
-    // private void OnMouseDown()
-    // {
-    //     _anim.SetTrigger("0000");
-    // }
-
     public void play_handleSound()
     {
         audHandle.Play();
@@ -45,4 +55,14 @@ public class SafeOpen : MonoBehaviour
     {
         audDoor.Play();
     }
+
+    public void start_rainningMoney()
+    {
+        psBack.Play();
+        audMoneyBack.Play();
+
+        psFront.Play();
+        audMoneyFront.Play();
+    }
+
 }
