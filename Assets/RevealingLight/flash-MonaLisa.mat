@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: flash-MonaLisa
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 01ead3a5420638c4e892f71e177e5d59, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -170,7 +170,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HeightTransition: 0
-    - _LightAngle: 180
+    - _LightAngle: 31.477757
     - _Metallic: 0
     - _Metallic0: 0
     - _Metallic1: 0
@@ -197,7 +197,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.21960783, g: 0.21960783, b: 0.21960783, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightDirection: {r: 0, g: 0, b: 1, a: 0}
-    - _LightPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _LightDirection: {r: -0.98401374, g: 0.062476337, b: 0.16677493, a: 0}
+    - _LightPosition: {r: -5.3024993, g: 0.19372451, b: -9.644211, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -59,6 +59,7 @@ Shader "Custom/RevealingShader2"
                 float3 direction = normalize(_LightPosition - i.worldPos);
                 float scale = dot(direction, _LightDirection);
                 float strength = scale - cos(_LightAngle * (6.28/360.0));
+                strength = min(max(strength * 10, 0), 1);
                 float alphaValue = strength;
                 // apply the alpha value
                 col.a = alphaValue;

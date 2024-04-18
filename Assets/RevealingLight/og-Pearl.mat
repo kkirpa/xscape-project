@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pearl
-  m_Shader: {fileID: 4800000, guid: 01ead3a5420638c4e892f71e177e5d59, type: 3}
+  m_Name: og-Pearl
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -170,7 +170,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HeightTransition: 0
-    - _LightAngle: 120
+    - _LightAngle: 180
     - _Metallic: 0
     - _Metallic0: 0
     - _Metallic1: 0
