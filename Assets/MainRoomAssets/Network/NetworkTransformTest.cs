@@ -1,15 +1,43 @@
-using System;
+// using System;
+// using Unity.Netcode;
+// using UnityEngine;
+
+// public class NetworkTransformTest : NetworkBehaviour
+// {
+//     void Update()
+//     {
+//         if (IsServer)
+//         {
+//             //float theta = Time.frameCount / 10.0f;
+//             transform.position = new Vector3(0, 1, 2);
+//         }
+//     }
+// }
+
 using Unity.Netcode;
 using UnityEngine;
 
 public class NetworkTransformTest : NetworkBehaviour
 {
+
+    public GameObject cam; 
+    void Start()
+    {
+        // Find the player GameObject dynamically at runtime
+        cam = GameObject.FindGameObjectWithTag("MainCamera");
+    }
+
     void Update()
     {
-        if (IsServer)
+        // Check if the player GameObject is found
+        if (cam != null)
         {
-            float theta = Time.frameCount / 10.0f;
-            transform.position = new Vector3((float) Math.Cos(theta), 0.0f, (float) Math.Sin(theta));
+            // Update the position of the networked GameObject to match the player's position
+            transform.position = cam.transform.position;
+        }
+        else
+        {
+            Debug.LogWarning("cam GameObject not found.");
         }
     }
 }
