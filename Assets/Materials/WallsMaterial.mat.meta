@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-guid: 909ba812e840a4c4399dd2bf9ed67a3d
-labels:
-- Architecture
-- Tile
-- Wood
-- Old
-- Aged
+guid: 8b75d448c82be44f8bf53ebe267ee402
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 0
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
