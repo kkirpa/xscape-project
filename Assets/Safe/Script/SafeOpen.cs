@@ -34,6 +34,11 @@ public class SafeOpen : MonoBehaviour
     public GameObject sirenObject4;
     public AudioSource audsiren4;
 
+    public Siren siren1;
+    public Siren siren2;
+    public Siren siren3;
+    public Siren siren4;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +57,11 @@ public class SafeOpen : MonoBehaviour
         audsiren2 = sirenObject2.GetComponent<AudioSource>();
         audsiren3 = sirenObject3.GetComponent<AudioSource>();
         audsiren4 = sirenObject4.GetComponent<AudioSource>();
+
+        siren1 = sirenObject1.GetComponent<Siren>();
+        siren2 = sirenObject2.GetComponent<Siren>();
+        siren3 = sirenObject3.GetComponent<Siren>();
+        siren4 = sirenObject4.GetComponent<Siren>();
     }
 
     // Update is called once per frame
@@ -88,6 +98,11 @@ public class SafeOpen : MonoBehaviour
         audsiren2.Play();
         audsiren3.Play();
         audsiren4.Play();
+
+        siren1.begin();
+        siren2.begin();
+        siren3.begin();
+        siren4.begin();
     }
 
 }
