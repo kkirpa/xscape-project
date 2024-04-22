@@ -22,6 +22,18 @@ public class SafeOpen : MonoBehaviour
     public AudioSource audMoneyFront;
     public ParticleSystem psFront;
 
+    public GameObject sirenObject1;
+    public AudioSource audsiren1;
+
+    public GameObject sirenObject2;
+    public AudioSource audsiren2;
+
+    public GameObject sirenObject3;
+    public AudioSource audsiren3;
+
+    public GameObject sirenObject4;
+    public AudioSource audsiren4;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +47,11 @@ public class SafeOpen : MonoBehaviour
 
         psFront = moneyRainFront.GetComponent<ParticleSystem>();
         audMoneyFront = moneyRainFront.GetComponent<AudioSource>();
+        
+        audsiren1 = sirenObject1.GetComponent<AudioSource>();
+        audsiren2 = sirenObject2.GetComponent<AudioSource>();
+        audsiren3 = sirenObject3.GetComponent<AudioSource>();
+        audsiren4 = sirenObject4.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -63,6 +80,14 @@ public class SafeOpen : MonoBehaviour
 
         psFront.Play();
         audMoneyFront.Play();
+    }
+
+    public void play_sirenSound()
+    {
+        audsiren1.Play();
+        audsiren2.Play();
+        audsiren3.Play();
+        audsiren4.Play();
     }
 
 }
