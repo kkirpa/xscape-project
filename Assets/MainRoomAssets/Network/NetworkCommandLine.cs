@@ -30,6 +30,11 @@ public class NetworkCommandLine : MonoBehaviour
                    break;
            }
        }
+       else 
+       {
+ //       Debug.LogWarning("default network client.");
+            netManager.StartClient();
+       }
    }
 
    private Dictionary<string, string> GetCommandlineArgs()

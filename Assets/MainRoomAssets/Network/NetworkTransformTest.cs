@@ -36,8 +36,8 @@ public class NetworkTransformTest : NetworkBehaviour
             transform.position = cam.transform.position;
         }
         else
-        {
-            Debug.LogWarning("cam GameObject not found.");
+        {Debug.LogWarning("cam GameObject not found.");
+            
         }
     }
 }
