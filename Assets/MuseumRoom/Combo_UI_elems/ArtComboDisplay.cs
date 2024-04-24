@@ -106,15 +106,19 @@ public class ArtComboDisplay : MonoBehaviour
         }
         else{
             // audioSource.PlayOneShot(failSound);
-            l_left.color = Color.red;
-            l_mid.color = Color.red;
-            l_right.color = Color.red;
-            StartCoroutine(ResetDisplayAfterDelay(5f));
+            StartCoroutine(ResetDisplayAfterDelay(2f));
         }
     }
 
     private IEnumerator ResetDisplayAfterDelay(float delay)
     {
+        l_left.intensity = LIGHT_INTENSITY * 2;
+        l_mid.intensity = LIGHT_INTENSITY * 2;
+        l_right.intensity = LIGHT_INTENSITY * 2;
+        l_left.color = Color.red;
+        l_mid.color = Color.red;
+        l_right.color = Color.red;
+
         // Wait for delay
         yield return new WaitForSeconds(delay);
 
