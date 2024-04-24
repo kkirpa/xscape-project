@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06281863, g: 0.076223806, b: 0.108840935, a: 1}
+  m_IndirectSpecularColor: {r: 0.062818676, g: 0.07622389, b: 0.10884102, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2214,7 +2214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00070953, y: -0.00085354}
+  m_AnchoredPosition: {x: 0.00053025, y: 0.0001955}
   m_SizeDelta: {x: 164.53, y: 188.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205222961
@@ -3747,7 +3747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0}
+  m_AnchoredPosition: {x: 0.00080449, y: 0.00063353}
   m_SizeDelta: {x: 164.53, y: 188.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &344134803
@@ -3770,7 +3770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 88790a36a3317114a8007299b54f5793, type: 3}
+  m_Texture: {fileID: 2800000, guid: 2661ea96e0ffac1419344d46f3f41a79, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -6146,22 +6146,22 @@ MonoBehaviour:
   art_right: {fileID: 205222961}
   myTextures:
   - {fileID: 2800000, guid: 225ed875001dde44789fe766b438f6ac, type: 3}
+  - {fileID: 2800000, guid: 497ef407a89ce1147afc7c035e43818d, type: 3}
   - {fileID: 2800000, guid: fda8ec0d3567bb14e9b5e2282b6ef394, type: 3}
-  - {fileID: 2800000, guid: 88790a36a3317114a8007299b54f5793, type: 3}
   - {fileID: 2800000, guid: ad0594d956f3da847a006b97d17cc36f, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2800000, guid: 97ffdf2c903dedb4aa0b0b170c061b14, type: 3}
+  - {fileID: 2800000, guid: 7f4d30e8a60b7b2438f9df351931f5a4, type: 3}
+  - {fileID: 2800000, guid: 00ab55c746d09cb43ab9277080ef3ee4, type: 3}
+  - {fileID: 2800000, guid: 0e339006c685493408ff3442fbeaa4b3, type: 3}
+  - {fileID: 2800000, guid: 200daa1503cc1f545918ea81291f2a17, type: 3}
+  - {fileID: 2800000, guid: 35ed3b50becab89498fc826a60b58913, type: 3}
+  - {fileID: 2800000, guid: 9e38eee98fbc5e3419ebea0cd1546c31, type: 3}
+  - {fileID: 2800000, guid: 8bf3f7e36a13a7246a3f6bd6635710da, type: 3}
+  - {fileID: 2800000, guid: 829e7f1b17aa2da488f76eb0a8bc08db, type: 3}
+  - {fileID: 2800000, guid: a774452199760eb42a0d5c958e53046a, type: 3}
+  - {fileID: 2800000, guid: 26b93c2aa1d99fb4a921beb590ed76f9, type: 3}
+  - {fileID: 2800000, guid: abd1cb8af627a504a8c5428d7fdb937f, type: 3}
+  - {fileID: 2800000, guid: 2661ea96e0ffac1419344d46f3f41a79, type: 3}
 --- !u!1 &523505623
 GameObject:
   m_ObjectHideFlags: 0
@@ -12006,8 +12006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.8}
-  m_SizeDelta: {x: 164.53, y: 188.47}
+  m_AnchoredPosition: {x: 0.72, y: 5.87}
+  m_SizeDelta: {x: 149.05, y: 185.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994371257
 MonoBehaviour:
