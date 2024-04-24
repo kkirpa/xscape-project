@@ -39,6 +39,8 @@ public class SafeOpen : MonoBehaviour
     public Siren siren3;
     public Siren siren4;
 
+    public GameObject successUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,6 +64,8 @@ public class SafeOpen : MonoBehaviour
         siren2 = sirenObject2.GetComponent<Siren>();
         siren3 = sirenObject3.GetComponent<Siren>();
         siren4 = sirenObject4.GetComponent<Siren>();
+
+        successUI.SetActive(false);
     }
 
     // Update is called once per frame
@@ -103,6 +107,11 @@ public class SafeOpen : MonoBehaviour
         siren2.begin();
         siren3.begin();
         siren4.begin();
+    }
+
+    public void activate_screen()
+    {
+        successUI.SetActive(true);
     }
 
 }
