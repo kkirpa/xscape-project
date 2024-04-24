@@ -10,7 +10,7 @@ public class NetworkCommandLine : MonoBehaviour
    {
        netManager = GetComponentInParent<NetworkManager>();
 
-       if (Application.isEditor) return;
+       //if (Application.isEditor) return;
 
        var args = GetCommandlineArgs();
 
@@ -34,6 +34,7 @@ public class NetworkCommandLine : MonoBehaviour
        {
  //       Debug.LogWarning("default network client.");
             netManager.StartClient();
+            Debug.Log("Client");
        }
    }
 
