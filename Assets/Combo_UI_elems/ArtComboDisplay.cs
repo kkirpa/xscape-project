@@ -15,8 +15,11 @@ public class ArtComboDisplay : MonoBehaviour
     private int numCurrDisplayed = 0;
     public Texture[] myTextures = new Texture[17];
 
-    public Animator _anim_fail;
-    public Animator _anim_win;
+    public Light l_left;
+    public Light l_mid;
+    public Light l_right;
+
+    public int LIGHT_INTENSITY;
 
     public AudioClip buttonClickSound;
     public AudioClip failSound;
@@ -36,6 +39,13 @@ public class ArtComboDisplay : MonoBehaviour
         art_left.texture = myTextures[0];
         art_mid.texture = myTextures[0];
         art_right.texture = myTextures[0];
+
+        l_left.intensity = 0f;
+        l_mid.intensity = 0f;
+        l_right.intensity = 0f;
+        l_left.color = Color.white;
+        l_mid.color = Color.white;
+        l_right.color = Color.white;
     }
 
     public void ButtonClicked(int number)
@@ -44,6 +54,7 @@ public class ArtComboDisplay : MonoBehaviour
         if (numCurrDisplayed == 0)
         {
             // audioSource.PlayOneShot(buttonClickSound);
+            l_left.intensity = LIGHT_INTENSITY;
             art_left.texture = myTextures[number];
             displayedIndices[0] = number;
             numCurrDisplayed++;
@@ -51,6 +62,7 @@ public class ArtComboDisplay : MonoBehaviour
         else if (numCurrDisplayed == 1)
         {
             // audioSource.PlayOneShot(buttonClickSound);
+            l_mid.intensity = LIGHT_INTENSITY;
             art_mid.texture = myTextures[number];
             displayedIndices[1] = number;
             numCurrDisplayed++;
@@ -58,36 +70,14 @@ public class ArtComboDisplay : MonoBehaviour
         else if (numCurrDisplayed == 2)
         {
             // audioSource.PlayOneShot(buttonClickSound);
+            l_right.intensity = LIGHT_INTENSITY;
             art_right.texture = myTextures[number];
             displayedIndices[2] = number;
             numCurrDisplayed++;
 
             // now that the third frame has been selected,
             // check the key.
-            bool isSuccess = true;
-            for (int i = 0; i <= 2; i++){
-                if (displayedIndices[i] != correctAnswer[i]){
-                    isSuccess = false;
-                }
-            }
-            if (isSuccess){
-                // audioSource.PlayOneShot(successSound);
-                WaitForAnimation(_anim_win);
-                numCurrDisplayed = -1;
-            }
-            else{
-                // audioSource.PlayOneShot(failSound);
-                WaitForAnimation(_anim_fail);
-
-                //reset all
-                art_left.texture = myTextures[0];
-                art_mid.texture = myTextures[0];
-                art_right.texture = myTextures[0];
-                displayedIndices[0] = 0;
-                displayedIndices[1] = 0;
-                displayedIndices[2] = 0;
-                numCurrDisplayed = 0;
-            }
+            CheckCombination();
         }
         else
         {
@@ -96,20 +86,58 @@ public class ArtComboDisplay : MonoBehaviour
 
             // audioSource.PlayOneShot(buttonNotActiveSound);
             Debug.Log($"The buttons are not active anymore.");
-
         }
     }
 
-    IEnumerator WaitForAnimation(Animator thisAnimator)
-    {
-        // Wait until the current state of the animation is not playing
-        while (thisAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f || thisAnimator.IsInTransition(0))
-        {
-            yield return null;
+    private void CheckCombination(){
+        bool isSuccess = true;
+        for (int i = 0; i <= 2; i++){
+            if (displayedIndices[i] != correctAnswer[i]){
+                isSuccess = false;
+            }
         }
+        if (isSuccess){
+            // audioSource.PlayOneShot(successSound);
+            numCurrDisplayed = -1;
+            l_left.color = Color.green;
+            l_mid.color = Color.green;
+            l_right.color = Color.green;
+            // TODO: trigger lasers
+        }
+        else{
+            // audioSource.PlayOneShot(failSound);
+            l_left.color = Color.red;
+            l_mid.color = Color.red;
+            l_right.color = Color.red;
+            StartCoroutine(ResetDisplayAfterDelay(5f));
+        }
+    }
 
-        // Animation has finished, continue with the script
-        Debug.Log("Animation finished, continue script here...");
+    private IEnumerator ResetDisplayAfterDelay(float delay)
+    {
+        // Wait for delay
+        yield return new WaitForSeconds(delay);
+
+        //reset all
+        art_left.texture = myTextures[0];
+        art_mid.texture = myTextures[0];
+        art_right.texture = myTextures[0];
+        displayedIndices[0] = 0;
+        displayedIndices[1] = 0;
+        displayedIndices[2] = 0;
+        numCurrDisplayed = 0;
+        l_left.intensity = 0f;
+        l_mid.intensity = 0f;
+        l_right.intensity = 0f;
+        l_left.color = Color.white;
+        l_mid.color = Color.white;
+        l_right.color = Color.white;
+    }
+
+    IEnumerator Pause(float duration)
+    {
+        // Wait for X seconds
+        yield return new WaitForSeconds(duration);
     }
 
     public void correctEvent(){
