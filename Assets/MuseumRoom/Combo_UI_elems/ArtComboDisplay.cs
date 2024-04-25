@@ -53,7 +53,7 @@ public class ArtComboDisplay : MonoBehaviour
         Debug.Log($"Clicked {number}");
         if (numCurrDisplayed == 0)
         {
-            // audioSource.PlayOneShot(buttonClickSound);
+            audioSource.PlayOneShot(buttonClickSound);
             l_left.intensity = LIGHT_INTENSITY;
             art_left.texture = myTextures[number];
             displayedIndices[0] = number;
@@ -61,7 +61,7 @@ public class ArtComboDisplay : MonoBehaviour
         }
         else if (numCurrDisplayed == 1)
         {
-            // audioSource.PlayOneShot(buttonClickSound);
+            audioSource.PlayOneShot(buttonClickSound);
             l_mid.intensity = LIGHT_INTENSITY;
             art_mid.texture = myTextures[number];
             displayedIndices[1] = number;
@@ -69,7 +69,7 @@ public class ArtComboDisplay : MonoBehaviour
         }
         else if (numCurrDisplayed == 2)
         {
-            // audioSource.PlayOneShot(buttonClickSound);
+            audioSource.PlayOneShot(buttonClickSound);
             l_right.intensity = LIGHT_INTENSITY;
             art_right.texture = myTextures[number];
             displayedIndices[2] = number;
@@ -84,7 +84,7 @@ public class ArtComboDisplay : MonoBehaviour
             // numCurrDisplayed is -1 meaning this is the correct
             // combo. The wall should not be updated anymore.
 
-            // audioSource.PlayOneShot(buttonNotActiveSound);
+            audioSource.PlayOneShot(buttonNotActiveSound);
             Debug.Log($"The buttons are not active anymore.");
         }
     }
@@ -97,7 +97,7 @@ public class ArtComboDisplay : MonoBehaviour
             }
         }
         if (isSuccess){
-            // audioSource.PlayOneShot(successSound);
+            audioSource.PlayOneShot(successSound);
             numCurrDisplayed = -1;
             l_left.color = Color.green;
             l_mid.color = Color.green;
@@ -105,7 +105,7 @@ public class ArtComboDisplay : MonoBehaviour
             // TODO: trigger lasers
         }
         else{
-            // audioSource.PlayOneShot(failSound);
+            audioSource.PlayOneShot(failSound);
             StartCoroutine(ResetDisplayAfterDelay(2f));
         }
     }
