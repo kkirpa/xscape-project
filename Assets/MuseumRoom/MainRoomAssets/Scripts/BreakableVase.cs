@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Unity.Netcode;
 
-public class BreakableVase : MonoBehaviour
+public class BreakableVase : NetworkBehaviour
 {
     public GameObject destroyedVersion;
     public GameObject statue;
@@ -13,7 +14,9 @@ public class BreakableVase : MonoBehaviour
 
     public void BreakTheVase ()
     {
-        Instantiate(destroyedVersion, transform.position, transform.rotation);
+        var instance = Instantiate(destroyedVersion, transform.position, transform.rotation);
+        var instanceNetworkObject = instance.GetComponent<NetworkObject>();
+        instanceNetworkObject.Spawn();
         
         if (shatter != null)
         {
@@ -30,6 +33,11 @@ public class BreakableVase : MonoBehaviour
             Instantiate(marblePrefab, transform.position + new Vector3(0, 0.5f, 0), transform.rotation);
         }
 
-        Destroy(gameObject);
+        //Destroy(gameObject);
+
+        NetworkObject vaseNetworkObject = GetComponent<NetworkObject>();
+
+        // Despawn the vase on all clients
+        vaseNetworkObject.Despawn(true);
     }
 }
