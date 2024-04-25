@@ -17,7 +17,7 @@ public class SuccessUI : MonoBehaviour
     public void toLobby()
     {
         Debug.Log("button clicked");
-        SceneManager.LoadScene("TutorialRoom");
+        SceneManager.LoadScene("Scenes/TutorialRoom");
     }
 
     // Update is called once per frame
