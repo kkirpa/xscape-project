@@ -27,18 +27,25 @@ public class NetworkCommandLine : MonoBehaviour
                case "client":
                    netManager.StartClient();
                    break;
-                default:
-                    netManager.StartClient();
-                    break;
+                // default:
+                //     netManager.StartClient();
+                //     break;
            }
        }
-       else 
-       {
- //       Debug.LogWarning("default network client.");
-            netManager.StartClient();
-            // Debug.Log("Client");
-       }
+//        else 
+//        {
+//  //       Debug.LogWarning("default network client.");
+//             netManager.StartClient();
+//             // Debug.Log("Client");
+//        }
    }
+
+   public void buttonClick()
+    {
+        Debug.Log("client started");
+        // netManager = GetComponentInParent<NetworkManager>();
+        netManager.StartClient();
+    }
 
    private Dictionary<string, string> GetCommandlineArgs()
    {
