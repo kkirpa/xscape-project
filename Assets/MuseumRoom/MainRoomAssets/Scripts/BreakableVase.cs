@@ -11,8 +11,9 @@ public class BreakableVase : NetworkBehaviour
     public AudioClip shatter;
     public GameObject keyPrefab;
     public GameObject marblePrefab;
-
-    public void BreakTheVase ()
+    
+    [Rpc(SendTo.Server)]
+    public void BreakTheVaseRpc ()
     {
         var instance = Instantiate(destroyedVersion, transform.position, transform.rotation);
         var instanceNetworkObject = instance.GetComponent<NetworkObject>();
@@ -36,7 +37,7 @@ public class BreakableVase : NetworkBehaviour
         //Destroy(gameObject);
 
         NetworkObject vaseNetworkObject = GetComponent<NetworkObject>();
-
+        
         // Despawn the vase on all clients
         vaseNetworkObject.Despawn(true);
     }
