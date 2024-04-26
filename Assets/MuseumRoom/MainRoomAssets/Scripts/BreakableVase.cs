@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Unity.Netcode;
 
-public class BreakableVase : NetworkBehaviour
+public class BreakableVase : MonoBehaviour
 {
     public GameObject destroyedVersion;
     public GameObject statue;
@@ -12,8 +12,7 @@ public class BreakableVase : NetworkBehaviour
     public GameObject keyPrefab;
     public GameObject marblePrefab;
     
-    [Rpc(SendTo.Server)]
-    public void BreakTheVaseRpc ()
+    public void BreakTheVase ()
     {
         Instantiate(destroyedVersion, transform.position, transform.rotation);
 
