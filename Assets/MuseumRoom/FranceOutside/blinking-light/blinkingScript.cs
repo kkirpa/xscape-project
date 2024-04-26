@@ -27,6 +27,7 @@ public class blinkingScript : MonoBehaviour
         while (true)
         {
             // SOS code
+            /*
             yield return StartCoroutine(Blink(1f));
             yield return StartCoroutine(Blink(1f));
             yield return StartCoroutine(Blink(1f));
@@ -37,6 +38,38 @@ public class blinkingScript : MonoBehaviour
             yield return StartCoroutine(Blink(1f));
             yield return StartCoroutine(Blink(1f));
             yield return StartCoroutine(Pause(1f));
+            */
+
+            // 1633
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Pause(0.25f));
+
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Pause(0.25f));
+
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Pause(0.25f));
+
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(0.5f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Blink(1f));
+            yield return StartCoroutine(Pause(0.25f));
+
+            yield return StartCoroutine(Pause(0.5f));
         }
     }
 
