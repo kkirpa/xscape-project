@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06281866, g: 0.076223835, b: 0.10884095, a: 1}
+  m_IndirectSpecularColor: {r: 0.06281863, g: 0.076223806, b: 0.108840935, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8384,6 +8384,7 @@ MonoBehaviour:
   glassCase: {fileID: 1788589474}
   laser: {fileID: 454624469}
   rightWall: {fileID: 646775893}
+  statue: {fileID: 2013372354}
 --- !u!4 &454624472
 Transform:
   m_ObjectHideFlags: 0
@@ -24233,7 +24234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.097
+      value: -5.041
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24241,7 +24242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.427
+      value: -8.97
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35784,6 +35785,9 @@ GameObject:
   - component: {fileID: 2013372350}
   - component: {fileID: 2013372353}
   - component: {fileID: 2013372352}
+  - component: {fileID: 2013372354}
+  - component: {fileID: 2013372355}
+  - component: {fileID: 2013372356}
   m_Layer: 0
   m_Name: AlexStat2
   m_TagString: Untagged
@@ -35902,7 +35906,7 @@ Transform:
   m_Children:
   - {fileID: 572452561}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 61.226, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 60.44594, z: 0}
 --- !u!114 &2013372352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35937,6 +35941,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2013372354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013372349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6767492b1ff9e64c9cd7fd76476f161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightLaser: {fileID: 454624469}
+  leftLaser: {fileID: 2039805358}
+  statue: {fileID: 2013372349}
+  anim: {fileID: 0}
+--- !u!111 &2013372355
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013372349}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 62842ea0f07580340b89fec75b624614, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bbf995183e7af2c449874a96a2183fd9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &2013372356
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013372349}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 267f720ac9f7e844f8744e90f1903583, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2025850246
 GameObject:
   m_ObjectHideFlags: 0
@@ -36613,6 +36670,7 @@ MonoBehaviour:
   glassCase: {fileID: 1788589474}
   laser: {fileID: 2039805358}
   rightWall: {fileID: 646775893}
+  statue: {fileID: 2013372354}
 --- !u!4 &2039805361
 Transform:
   m_ObjectHideFlags: 0
