@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.062820174, g: 0.076224834, b: 0.108829156, a: 1}
+  m_IndirectSpecularColor: {r: 0.062818676, g: 0.07622389, b: 0.10884102, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9203,22 +9203,22 @@ MonoBehaviour:
   art_right: {fileID: 205222961}
   myTextures:
   - {fileID: 2800000, guid: 225ed875001dde44789fe766b438f6ac, type: 3}
+  - {fileID: 2800000, guid: 00ab55c746d09cb43ab9277080ef3ee4, type: 3}
+  - {fileID: 2800000, guid: 0e339006c685493408ff3442fbeaa4b3, type: 3}
   - {fileID: 2800000, guid: 497ef407a89ce1147afc7c035e43818d, type: 3}
-  - {fileID: 2800000, guid: fda8ec0d3567bb14e9b5e2282b6ef394, type: 3}
   - {fileID: 2800000, guid: ad0594d956f3da847a006b97d17cc36f, type: 3}
   - {fileID: 2800000, guid: 97ffdf2c903dedb4aa0b0b170c061b14, type: 3}
   - {fileID: 2800000, guid: 7f4d30e8a60b7b2438f9df351931f5a4, type: 3}
-  - {fileID: 2800000, guid: 00ab55c746d09cb43ab9277080ef3ee4, type: 3}
-  - {fileID: 2800000, guid: 0e339006c685493408ff3442fbeaa4b3, type: 3}
-  - {fileID: 2800000, guid: 200daa1503cc1f545918ea81291f2a17, type: 3}
-  - {fileID: 2800000, guid: 35ed3b50becab89498fc826a60b58913, type: 3}
   - {fileID: 2800000, guid: 9e38eee98fbc5e3419ebea0cd1546c31, type: 3}
-  - {fileID: 2800000, guid: 8bf3f7e36a13a7246a3f6bd6635710da, type: 3}
+  - {fileID: 2800000, guid: fda8ec0d3567bb14e9b5e2282b6ef394, type: 3}
   - {fileID: 2800000, guid: 829e7f1b17aa2da488f76eb0a8bc08db, type: 3}
+  - {fileID: 2800000, guid: 35ed3b50becab89498fc826a60b58913, type: 3}
   - {fileID: 2800000, guid: a774452199760eb42a0d5c958e53046a, type: 3}
   - {fileID: 2800000, guid: 26b93c2aa1d99fb4a921beb590ed76f9, type: 3}
   - {fileID: 2800000, guid: abd1cb8af627a504a8c5428d7fdb937f, type: 3}
   - {fileID: 2800000, guid: 2661ea96e0ffac1419344d46f3f41a79, type: 3}
+  - {fileID: 2800000, guid: 200daa1503cc1f545918ea81291f2a17, type: 3}
+  - {fileID: 2800000, guid: 8bf3f7e36a13a7246a3f6bd6635710da, type: 3}
   l_left: {fileID: 1435739707}
   l_mid: {fileID: 1222920288}
   l_right: {fileID: 994081062}
@@ -9228,6 +9228,7 @@ MonoBehaviour:
   successSound: {fileID: 8300000, guid: d00e3460f2ddd5842a6ab8822aa1b81b, type: 3}
   buttonNotActiveSound: {fileID: 8300000, guid: 39bc2dcec50135a44856707c7a01fdc8, type: 3}
   audioSource: {fileID: 1467491173}
+  statue: {fileID: 2013372354}
 --- !u!1 &523505623
 GameObject:
   m_ObjectHideFlags: 0
