@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.062818676, g: 0.07622389, b: 0.10884102, a: 1}
+  m_IndirectSpecularColor: {r: 0.062820174, g: 0.076224834, b: 0.108829156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4835,7 +4835,7 @@ Transform:
   m_GameObject: {fileID: 265288788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.842, y: 0.377, z: -6.7427}
+  m_LocalPosition: {x: -8.842, y: 3.053, z: -6.728}
   m_LocalScale: {x: 0.01, y: 0.1, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24234,7 +24234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.041
+      value: -5.908
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24242,7 +24242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.97
+      value: -8.588
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37608,7 +37608,7 @@ PrefabInstance:
       objectReference: {fileID: 2013372352}
     - target: {fileID: 1395754604317963370, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BreakTheVaseRpc
+      value: BreakTheVase
       objectReference: {fileID: 0}
     - target: {fileID: 2419507971595268788, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
       propertyPath: statue
