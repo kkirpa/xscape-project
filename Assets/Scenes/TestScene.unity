@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06281863, g: 0.076223806, b: 0.108840935, a: 1}
+  m_IndirectSpecularColor: {r: 0.062820174, g: 0.076224834, b: 0.108829156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8384,7 +8384,6 @@ MonoBehaviour:
   glassCase: {fileID: 1788589474}
   laser: {fileID: 454624469}
   rightWall: {fileID: 646775893}
-  statue: {fileID: 2013372354}
 --- !u!4 &454624472
 Transform:
   m_ObjectHideFlags: 0
@@ -26807,7 +26806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35297,7 +35296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2001458661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36670,7 +36669,6 @@ MonoBehaviour:
   glassCase: {fileID: 1788589474}
   laser: {fileID: 2039805358}
   rightWall: {fileID: 646775893}
-  statue: {fileID: 2013372354}
 --- !u!4 &2039805361
 Transform:
   m_ObjectHideFlags: 0
@@ -37667,7 +37665,9 @@ PrefabInstance:
       propertyPath: InScenePlacedSourceGlobalObjectIdHash
       value: 2259462876
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5539568362865835705, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
+    - {fileID: 3106500101611421647, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
