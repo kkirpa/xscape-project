@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using static StatueAndLaserTurn;
 
 public class ArtComboDisplay : MonoBehaviour
 {
@@ -27,7 +28,9 @@ public class ArtComboDisplay : MonoBehaviour
     public AudioClip buttonNotActiveSound;
     public AudioSource audioSource;
 
-    private int[] correctAnswer = {1, 2, 3};
+    public StatueAndLaserTurn statue;
+
+    private int[] correctAnswer = {9, 13, 8};
 
     // called before first frame
     void Start()
@@ -102,7 +105,8 @@ public class ArtComboDisplay : MonoBehaviour
             l_left.color = Color.green;
             l_mid.color = Color.green;
             l_right.color = Color.green;
-            // TODO: trigger lasers
+            // trigger lasers
+            statue.turnStatue();
         }
         else{
             audioSource.PlayOneShot(failSound);
