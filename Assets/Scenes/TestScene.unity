@@ -37614,6 +37614,18 @@ PrefabInstance:
       propertyPath: statue
       value: 
       objectReference: {fileID: 2013372349}
+    - target: {fileID: 3106500101611421647, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
+      propertyPath: SyncScaleX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3106500101611421647, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
+      propertyPath: SyncScaleY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3106500101611421647, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
+      propertyPath: SyncScaleZ
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3877052293546540178, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.512

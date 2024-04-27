@@ -11,7 +11,8 @@ public class BreakableVase : NetworkBehaviour
     public AudioClip shatter;
     public GameObject keyPrefab;
     public GameObject marblePrefab;
-    
+
+
     [Rpc(SendTo.Server)]
     public void BreakTheVaseRpc ()
     {
