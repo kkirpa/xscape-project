@@ -34,6 +34,7 @@ public class NetworkTransformTest : NetworkBehaviour
         {
             // Update the position of the networked GameObject to match the player's position
             transform.position = cam.transform.position;
+            transform.rotation = cam.transform.rotation;
         }
         else
         {Debug.LogWarning("cam GameObject not found.");

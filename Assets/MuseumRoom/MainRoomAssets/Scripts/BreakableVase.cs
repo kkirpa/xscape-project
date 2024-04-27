@@ -12,6 +12,28 @@ public class BreakableVase : NetworkBehaviour
     public GameObject keyPrefab;
     public GameObject marblePrefab;
 
+    [ServerRpc(RequireOwnership = false)]
+    public void UpdateServerRpc() 
+    {
+        // var position Vector3;
+        BreakTheVaseRpc();
+        PositionTransformRpc();
+        Debug.Log("update rpc");
+    }
+
+
+    void Update(){
+        Debug.Log("normal update");
+        UpdateServerRpc();
+    }
+
+    [Rpc(SendTo.Server)]
+    public void PositionTransformRpc(){
+         Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        Debug.Log("update rpc");
+        Debug.Log(position);
+    }
+
 
     [Rpc(SendTo.Server)]
     public void BreakTheVaseRpc ()
