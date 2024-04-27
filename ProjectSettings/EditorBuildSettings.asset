@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: b8a0357537d387640a2b89eb716159c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VaultRoomScene.unity
     guid: 0a4b73fb6b97f4afebac2046504845b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TutorialRoom.unity
     guid: 8ed5c60d25336814c9dc30f40d7951b4
   m_configObjects:
