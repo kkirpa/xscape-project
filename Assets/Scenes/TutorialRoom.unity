@@ -4629,6 +4629,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9067829889149138881, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11261,11 +11265,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1851454015}
     m_Modifications:
-    - target: {fileID: 113284650301069568, guid: 9af319ec89737459b83e3574009d033d, type: 3}
+    - target: {fileID: 7126265164919728813, guid: 9af319ec89737459b83e3574009d033d, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: GlobalObjectIdHash
       value: 1459980
       objectReference: {fileID: 0}
-    - target: {fileID: 113284650301069568, guid: 9af319ec89737459b83e3574009d033d, type: 3}
+    - target: {fileID: 0}
       propertyPath: InScenePlacedSourceGlobalObjectIdHash
       value: 752184398
       objectReference: {fileID: 0}
