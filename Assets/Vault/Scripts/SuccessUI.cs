@@ -11,13 +11,16 @@ public class SuccessUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     public void toLobby()
     {
-        Debug.Log("button clicked");
         SceneManager.LoadScene("Scenes/TutorialRoom");
+    }
+
+    public void toMain()
+    {
+        SceneManager.LoadScene("Scenes/TestScene");
     }
 
     // Update is called once per frame
