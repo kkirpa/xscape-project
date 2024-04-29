@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - BreakableGlass
+  - StatueHead
   layers:
   - Default
   - TransparentFX

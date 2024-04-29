@@ -23,7 +23,7 @@ public class BreakableVase : NetworkBehaviour
 
 
     void Update(){
-        Debug.Log("normal update");
+        // Debug.Log("normal update");
         UpdateServerRpc();
     }
 
