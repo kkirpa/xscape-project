@@ -42,6 +42,8 @@ public class StatueAndLaserTurn : MonoBehaviour
         rightLaser.SetActive(true);
         leftLaser.SetActive(true);
 
+        AudioSource glassAudio = glassbox.GetComponent<AudioSource>();
+        glassAudio.Play();
         glassbox.SetActive(false);
         if (crownGrabInteractable != null)
         {
