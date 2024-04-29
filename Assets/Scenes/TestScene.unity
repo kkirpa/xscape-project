@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.062820174, g: 0.076224834, b: 0.108829156, a: 1}
+  m_IndirectSpecularColor: {r: 0.06281863, g: 0.076223806, b: 0.108840935, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -21009,6 +21009,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127949072}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1133053407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4505251267358238248, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
+  m_PrefabInstance: {fileID: 3600581517310732681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1133053417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133053407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 177088827
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &1140157286
 GameObject:
   m_ObjectHideFlags: 0
@@ -38774,7 +38800,7 @@ PrefabInstance:
       objectReference: {fileID: 2013372352}
     - target: {fileID: 1395754604317963370, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BreakTheVaseRpc
+      value: BreakTheVase
       objectReference: {fileID: 0}
     - target: {fileID: 2419507971595268788, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
       propertyPath: statue
@@ -38852,10 +38878,14 @@ PrefabInstance:
       propertyPath: InScenePlacedSourceGlobalObjectIdHash
       value: 2259462876
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3869924362986879908, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4505251267358238248, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1133053417}
   m_SourcePrefab: {fileID: 100100000, guid: 7600f24eb04314c629ef15f303c65d4c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

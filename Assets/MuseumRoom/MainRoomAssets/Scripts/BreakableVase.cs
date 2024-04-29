@@ -13,8 +13,7 @@ public class BreakableVase : NetworkBehaviour
     public GameObject marblePrefab;
 
 
-    [Rpc(SendTo.Server)]
-    public void BreakTheVaseRpc ()
+    public void BreakTheVase ()
     {
         Instantiate(destroyedVersion, transform.position, transform.rotation);
         
