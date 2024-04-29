@@ -16,9 +16,7 @@ public class BreakableVase : NetworkBehaviour
     [Rpc(SendTo.Server)]
     public void BreakTheVaseRpc ()
     {
-        var instance = Instantiate(destroyedVersion, transform.position, transform.rotation);
-        var instanceNetworkObject = instance.GetComponent<NetworkObject>();
-        instanceNetworkObject.Spawn();
+        Instantiate(destroyedVersion, transform.position, transform.rotation);
         
         if (shatter != null)
         {
@@ -35,11 +33,6 @@ public class BreakableVase : NetworkBehaviour
             Instantiate(marblePrefab, transform.position + new Vector3(0, 0.5f, 0), transform.rotation);
         }
 
-        //Destroy(gameObject);
-
-        NetworkObject vaseNetworkObject = GetComponent<NetworkObject>();
-        
-        // Despawn the vase on all clients
-        vaseNetworkObject.Despawn(true);
+        Destroy(gameObject);
     }
 }
