@@ -23,6 +23,11 @@ public class SuccessUI : MonoBehaviour
         SceneManager.LoadScene("Scenes/TestScene");
     }
 
+    public void toVault()
+    {
+        SceneManager.LoadScene("Scenes/VaultRoomScene");
+    }
+
     // Update is called once per frame
     /*void Update()
     {

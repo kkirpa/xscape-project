@@ -19,4 +19,8 @@ public class ChangeScene : MonoBehaviour
     public void GoToMainRoom (string sceneToChnageTo) {
         Application.LoadLevel(sceneToChnageTo);
     }
+
+    public void GoToVaultRoom (string sceneToChnageTo) {
+        Application.LoadLevel(sceneToChnageTo);
+    }
 }
