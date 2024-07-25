@@ -1,5 +1,8 @@
 # X-Scape: Human-Computer Capstone Project for Virginia Tech 2024
 
+![X-Scape Logo](https://github.com/user-attachments/assets/f5905156-bac5-4c90-911c-af95f4046dd1)
+
+
 ## By Team 5 
 
 
